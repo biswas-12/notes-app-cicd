@@ -27,7 +27,7 @@ pipeline {
         stage("Deploy"){
             steps {
                 echo "Deploying the container"
-                sh "docker run -d -p 8000:8000 my-notes-app:latest"
+                sh "docker run -d -p 8000:8000 my-note-app:latest"
                 
             }
         }
