@@ -1,5 +1,11 @@
 # Simple Notes App
-This is a simple notes app built with React and Django.
+This is a simple notes app built with React and Django. The project is about deploying the code on AWS using Jenkins declarative CI/CD Pipelines.
+
+## Tools used
+1. Github
+2. Docker
+3. DockerHub
+4. AWS EC2
 
 ## Requirements
 1. Python 3.9
@@ -9,7 +15,7 @@ This is a simple notes app built with React and Django.
 ## Installation
 1. Clone the repository
 ```
-git clone https://github.com/LondheShubham153/django-notes-app.git
+git clone https://github.com/biswas-12/notes-app-cicd
 ```
 
 2. Build the app
